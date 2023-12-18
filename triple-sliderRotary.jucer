@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Lx1L2l" name="triple-sliderRotary" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="GRl9sp" name="triple-sliderRotary">
+    <GROUP id="{CA705CAA-8698-C45A-007A-6A0B850F4B09}" name="Source">
+      <FILE id="NcHncZ" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="A3lotm" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="EkD8Db" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <ANDROIDSTUDIO targetFolder="Builds/Android">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="triple-sliderRotary"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="triple-sliderRotary"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+      </MODULEPATHS>
+    </ANDROIDSTUDIO>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="triple-sliderRotary"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="triple-sliderRotary"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="triple-sliderRotary"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="triple-sliderRotary"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+    <XCODE_IPHONE targetFolder="Builds/iOS">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="triple-sliderRotary"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="triple-sliderRotary"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_IPHONE>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="triple-sliderRotary"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="triple-sliderRotary"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Documents/arvin-studio/API/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
