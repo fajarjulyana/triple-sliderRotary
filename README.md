@@ -1,5 +1,5 @@
 # Contoh Proyek JUCE -Tiga Slider Rotary Knob
-
+<img src="capture/capture.gif">
 Sebuah proyek JUCE (Jules' Utility Class Extensions) sederhana yang menunjukkan pembuatan tiga knob rotari menggunakan kelas `Slider`.
 
 ## Daftar Isi
